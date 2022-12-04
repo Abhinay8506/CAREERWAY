@@ -1,0 +1,207 @@
+*{
+    margin:0;
+    padding:0;
+}
+.navbar{
+    display:flex; 
+}
+.nav-list{
+  display:flex;
+  width:50%;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  list-style: none;
+  
+  
+}
+.header{
+  width:40%;
+  display:flex;
+  background-color: black;
+  justify-content: center;
+   text-align: center; }
+.nav-list li a{
+    
+    background-color:black;
+    padding:10px;
+   text-decoration: none;
+   color:white;
+}
+.project{
+    color:aqua;
+    font-size:50px;
+}
+.rightnav{
+    background-color: black;
+    width:20%;
+    padding-top: 1.5%;
+
+}
+.logo img{
+    width: 25%;
+    border: 2px solid white;
+    border-radius: 50%;
+}
+#search{
+    
+    border: 2px solid aqua;
+    font-size:15px;
+
+}
+nav{
+    position: sticky;
+  top: 0;
+  z-index: 999;
+ }
+ .background{
+    display:flex;
+    background-color:black;
+    background-size: cover;
+    
+ }
+
+.pcontent{
+    width:66%;
+    color:white;
+    padding-left: 3%;
+
+}
+.Confuse{
+    font-size:80px;
+    margin-top: 5%;
+    color:cyan;
+}
+.welcome{
+    font-size:40px;
+    margin-top:3%;
+    padding-left: 4%;
+    color:cyan;
+}
+.subhead{
+    font-size:40px;
+    margin-top:3%;
+    padding-left: 4%;
+    color:cyan;
+}
+
+.services{
+    text-align:center;
+    background-color: black;   
+}
+.servicehead{
+    font-size:40PX;
+    color:yellow;
+}
+.seimgtext img{
+    border-image-outset: 0ch;
+    border: 2px dotted white;
+    border-radius: 10%;
+    padding-left: 0%;
+}
+.seimg{
+    display:flex;
+    color:white;
+    font-size:20px;
+    list-style: none;
+    text-align: center;
+    width:50%;
+    
+     
+}
+.psych{
+    margin-left:22%;
+}
+.skill{
+    margin-left:28%;
+}
+.meeting{
+    margin-left:30%;
+}
+.brochure{
+    margin-left:30%;
+}
+
+.aboutus{
+    padding:2%;
+    border: 2px solid pink;
+    border-radius: 0%;
+    background-color:cornflowerblue;
+    font-size:25px;
+    text-align:center;
+
+    
+
+}
+.why{
+    border: 2px solid coral;
+    border-radius: 0%;
+    background-color: blueviolet;
+    height:220px;
+    font-size:25px;
+    text-align:center;
+}
+.abouthead{
+    text-align:center;
+    color:gold;
+    font-size:40px;
+    font-family: Verdana;
+}
+.whyhead{
+    text-align:center;
+    color:gold;
+    font-size:40px;
+    font-family: Geneva;
+}
+
+.procedure{
+    
+    font-size:30px;
+    border: 2px solid coral;
+    border-radius:0%;
+    text-align:center;
+    background-color:darkorchid;
+    list-style-type: circle;
+   
+}
+.prohead{
+    font-size: 35px;
+    color:gold;
+}
+.step{
+    list-style-type: circle;
+}
+
+.contact{
+    text-align:center;
+    font-size:20px;
+    width:30%;
+    border: 2px solid coral;
+    border-radius:0%;
+    height:500px;
+    background-color: darkcyan;
+}
+.formhead{
+    font-size: 35px;
+    color:gold;
+}
+.formcontent{
+    margin-top:2%;
+    margin:2%;
+    text-align:center;
+
+}
+.footer{
+    text-align:center;
+    font-size:30px;
+    background-color: black;
+    color:yellow;
+}
+.contacthead{
+    font-size:40px;
+    color:white
+}
+.submit{
+    color:crimson;
+    font-size:40px;
+}
