@@ -1,107 +1,112 @@
-*{
-    margin:0;
-    padding:0;
-    box-sizing: border-box;
+body 
+{
+  font-family:sans-serif; 
+  background: -webkit-linear-gradient(to right, #155799, #159957);  
+  background: linear-gradient(to right, #155799, #159957); 
+  color:whitesmoke;
 }
-*:focus{
-    outline:none;
-}
-body{
-    position: relative;
-    width: 100%;
-    min-height:100vh;
-    height: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: black;
-    background-size: cover;
-    background-position: center;
-    font-family:'roboto', sans-serif;
-}
-.form{
-    width: 400px;
-    height:auto;
-    color:#fff;
-    font-family:'roboto',sans-serif;
-}
-.heading{
-    opacity:0;
-    text-transform: capitalize;
-    text-align: center;
-    font-size:80px;
-    font-weight:300;
-    margin-bottom:50px;
-}
-input,
-.submit-btn{
-    opacity:0;
-    width: 80%;
-    height: 35px;
-    display: block;
-    margin: 20px auto;
-    border-radius: 5px;
-    background: rgba(255, 255, 255, 0.3);
-    border: none;
-    color: #fff;
-    padding: 15px;
-    transition:.5s;
-    text-transform: capitalize;
-}
-input::placeholder{
-    color:#fff;
-}
-input:focus{
-    background:#fff;
-    color: #000;
-}
-input :focus::placeholder{
-    color:#000;
 
-}
-input:focus,
-.submit-btn:hover{
-    background: #fff;
-    color: #000;
-}
-input:focus::placeholder{
-    color:#000;
-}
-.submit-btn{
-    width:auto;
-    padding:0 20px;
-    cursor:pointer;
-    margin:50px auto 0;
-}
-.link{
-    opacity:0;
-    text-align:center;
-    text-transform:capitalize;
-    text-decoration: none;
-    color:rgba(255, 255, 255, 0.5);
-    display:block;
-    margin:30px auto;
-}
-.link:hover{
-    color:#fff;
-}
-.alert-box{
-    position:absolute;
-    top:-100%;
-    left:50%;
-    transform: translateX(-50%);
-    min-width: 150px;
-    max-width: 90%;
-    width: auto;
-    height: auto;
-    padding: 10px;
-    text-transform:capitalize;
-    background: rgb(255, 119, 119);
-    border-top: 10px solid rgb(255, 37, 37);
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-    color:#fff;
-    font-family: 'roboto',sans-serif;
+
+h1{
     text-align: center;
-    transition: 1s;
 }
+
+
+form{
+    width:35rem;
+    margin: auto;
+    color:whitesmoke;
+    backdrop-filter: blur(16px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+    background-color: rgba(11, 15, 13, 0.582);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+    padding: 20px 25px;
+}
+
+input[type=text], input[type=password]{
+    width: 100%;
+    margin: 10px 0;
+    border-radius: 5px;
+    padding: 15px 18px;
+    box-sizing: border-box;
+  }
+
+button {
+    background-color: #030804;
+    color: white;
+    padding: 14px 20px;
+    border-radius: 5px;
+    margin: 7px 0;
+    width: 100%;
+    font-size: 18px;
+  }
+
+button:hover {
+    opacity: 0.6;
+    cursor: pointer;
+}
+
+.headingsContainer{
+    text-align: center;
+}
+
+.headingsContainer p{
+    color: gray;
+}
+.mainContainer{
+    padding: 16px;
+}
+
+
+.subcontainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.subcontainer a{
+    font-size: 16px;
+    margin-bottom: 12px;
+}
+
+span.forgotpsd a {
+    float: right;
+    color: whitesmoke;
+    padding-top: 16px;
+  }
+
+.forgotpsd a{
+    color: rgb(74, 146, 235);
+  }
+  
+.forgotpsd a:link{
+    text-decoration: none;
+  }
+
+  .register{
+    color: white;
+    text-align: center;
+  }
+  
+  .register a{
+    color: rgb(74, 146, 235);
+  }
+  
+  .register a:link{
+    text-decoration: none;
+  }
+
+  /* Media queries for the responsiveness of the page */
+  @media screen and (max-width: 600px) {
+    form{
+      width: 25rem;
+    }
+  }
+  
+  @media screen and (max-width: 400px) {
+    form{
+      width: 20rem;
+    }
+  }
