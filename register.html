@@ -2,7 +2,8 @@
 <html>
   <head>
     <title>Registration Page</title>
-   <link rel="stylesheet" href="stylelogin.css">
+    <link rel="stylesheet" href="loginform.css">
+    <script type="text/javascript">function disp_alert(){if (confirm("Registered successfully click ok login")) window.location = "loginform.html";}</script>
   </head>
   
   <body>
@@ -94,7 +95,7 @@
                 />
               </div>
               <br>
-              <input type="submit" class="btn btn-primary" />
+              <input type="button" onclick="disp_alert()" value="Register" />
             </form>
           </div>
         </div>
