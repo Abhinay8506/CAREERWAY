@@ -97,7 +97,7 @@ nav{
    
 }
     
-
+ 
 
 .contact{
     text-align:center;
@@ -106,7 +106,8 @@ nav{
     border: 2px solid coral;
     border-radius:0%;
     height:500px;
-    background-color: darkcyan;
+    background-color:  background: -webkit-linear-gradient(to right, #F8B195, #F67280, #CD6C84, #6C5B7B, #355C70 );  
+    background: linear-gradient(to right, #F8B195, #F67280, #CD6C84, #6C5B7B, #355C70 );;
 }
 .formhead{
     font-size: 35px;
